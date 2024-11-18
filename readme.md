@@ -1,5 +1,10 @@
 # Developer guide
-## Install dependencies
+## API key
+Create a file `api_key` in the project's root directory in which is stored your personal API key.  
+Make sure there is not empty line.
+
+## Dependencies
+### Install dependencies
 `cd` in the project's root directory  
 
 Create a virtual environment
@@ -22,7 +27,7 @@ Install the required dependencies
 pip install -r requirements.txt
 ```
 
-## Add a dependency
+### Add a dependency
 ```bash
 pip install my_dependency
 pip freeze > requirements
