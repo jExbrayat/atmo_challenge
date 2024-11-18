@@ -3,35 +3,37 @@
 Create a file `api_key` in the project's root directory in which is stored your personal API key.  
 Make sure there is not empty line.
 
-## Dependencies
+## Dependency management using Poetry
+
+### Install Poetry
+```bash
+pip install poetry
+```
+
 ### Install dependencies
-`cd` in the project's root directory  
-
-Create a virtual environment
 ```bash
-python -m venv .venv
+cd project/root/folder/
+poetry install
 ```
-
-Activate the virtual environment
+or
 ```bash
-source .venv/bin/activate
+python -m poetry install
 ```
-Or launch Python / pip with the following
-```bash
-.venv/bin/python
-.venv/bin/pip
-```
+This command will create a virtual environment and install the user's dependencies in it.  
 
-Install the required dependencies
+### Run script or Python module
 ```bash
-pip install -r requirements.txt
+poetry run python script.py
+poetry run nb-clean ...
 ```
 
-### Add a dependency
+### Add dependency
 ```bash
-pip install my_dependency
-pip freeze > requirements
+poetry add matplotlib
+poetry lock
 ```
+
+See the complete documentation on https://python-poetry.org/.
 
 ## Continuous integration
 These steps must be followed before committing.  
