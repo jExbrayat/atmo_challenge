@@ -32,3 +32,16 @@ pip install -r requirements.txt
 pip install my_dependency
 pip freeze > requirements
 ```
+
+## Continuous integration
+These steps must be followed before committing.  
+*Make sure to have installed dependencies priorly.*
+
+### Clean notebooks
+Ensure notebooks metadata are cleaned to avoid merge conflicts.  
+```bash
+nb-clean clean . --preserve-cell-outputs --remove-empty-cells
+nb-clean check . --preserve-cell-outputs --remove-empty-cells
+```
+The first command cleans all notebooks in the source directory `.`.  
+The second command outputs nothing if all went well.
