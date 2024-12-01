@@ -42,8 +42,8 @@ These steps must be followed before committing.
 ### Clean notebooks
 Ensure notebooks metadata are cleaned to avoid merge conflicts.  
 ```bash
-nb-clean clean . --preserve-cell-outputs --remove-empty-cells
-nb-clean check . --preserve-cell-outputs --remove-empty-cells
+poetry run nb-clean clean . --preserve-cell-outputs --remove-empty-cells
+poetry run nb-clean check . --preserve-cell-outputs --remove-empty-cells
 ```
 The first command cleans all notebooks in the source directory `.`.  
 The second command outputs nothing if all went well.
