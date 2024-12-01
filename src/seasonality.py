@@ -65,7 +65,7 @@ class SeasonalPlotter:
             y=y,
             hue=period,
             data=X,
-            ci=False,
+            errorbar=('ci', False),
             ax=ax,
             palette=palette,
             legend=False,
