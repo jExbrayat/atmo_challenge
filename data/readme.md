@@ -1,0 +1,2 @@
+- `smh_ref_micro_merged.csv` is the results of the *filter_date* method of the *site* object defined in `notebooks/exploratory_analysis.ipynb` merged on date (year 2023).  
+  *x* stands for the reference station and *y* for the microsensor.
