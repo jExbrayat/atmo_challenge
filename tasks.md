@@ -20,3 +20,29 @@ ARIMA model and validation models
 - Jules
   Research other ML models
   Study the distribution of the deviations with the reference
+
+
+
+# Christmas vacations
+
+## Step 1
+- Descriptive analysis  
+  Amrin
+
+## Step 2
+- SARIMA / ARIMA  
+  Henrique
+  
+- DecisionForest  
+  Aynur  
+  Jules
+  
+## Step 3
+- Comparison and propagation based model  
+  Henrique  
+  Jules  
+
+## Divers
+- Preprocessing methods report  
+  Jules (raw)  
+  Amrin (latex)
