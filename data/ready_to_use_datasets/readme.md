@@ -1,2 +1,2 @@
-- `smh.csv` features temperature, humidity, PM2.5 microsensor measures and PM2.5 reference measures as well as temporal categorical variables for the years 2023 and 2024.  
-  Please note that it has not been filtered for corrupted data.
+- `smh.csv` and `lesfresnes.csv` feature temperature, humidity, PM2.5 microsensor measures and PM2.5 reference measures as well as temporal categorical variables for the years 2023 and 2024.  
+  Please note that data has not been filtered for corrupted data.
