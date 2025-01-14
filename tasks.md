@@ -46,3 +46,22 @@ ARIMA model and validation models
 - Preprocessing methods report  
   Jules (raw)  
   Amrin (latex)
+
+
+
+# Urgent last run 
+
+- Everyone
+Send to Amrin a short paragraph about one's achieved tasks for the project.  
+Choose a time window for the graphs evaluating the models. 
+
+
+- Jules
+Search about Kigrin model and make raw md report for Amrin.  
+Make the slides about Kigrin.   
+
+- Henrique and Jules
+Small implementation of Kigrin model
+
+- Aynur
+Finalize the slides, style, homogeneity etc.
